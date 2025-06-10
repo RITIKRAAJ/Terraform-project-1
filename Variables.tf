@@ -16,6 +16,6 @@ variable "ec2_ami_id" {
 }
 
 variable "env"{
-  default ="dev" # if we use "prd" when switch to 20GB
+  default ="dev" # We use "prd" when switching to 20 GB; otherwise, we use "env."
   type = string
 }
